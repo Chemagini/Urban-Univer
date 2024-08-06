@@ -1,0 +1,7 @@
+my_string = input('Привет Урбан, сколько тебе лет? :')
+print("Количество символов в тексте:", len(my_string))
+print('my_string'.upper())
+print('my_string'.lower())
+print('my_string cook'.replace(' ',''))
+print('my_string' [:1])
+print('my_string'[-1:])
