@@ -1,0 +1,17 @@
+grades = [[5, 3, 3, 5, 4], [2, 2, 2, 3], [4, 5, 5, 2], [4, 4, 3], [5, 5, 5, 4, 5]]
+students = sorted({'Johnny', 'Bilbo', 'Steve', 'Khendrik', 'Aaron'})
+Aaron = sum(grades [0]) / len(grades [0])
+print(Aaron)
+Bilbo = sum(grades [1]) / len(grades [1])
+print(Bilbo)
+Johnny =  sum(grades [2]) / len(grades [2])
+print(Johnny)
+Khendrik = sum(grades [3]) / len(grades [3])
+print(Khendrik)
+Steve =  sum(grades [4]) / len(grades [4])
+print(Steve)
+print(students)
+GPA = Aaron, Bilbo, Johnny, Khendrik, Steve
+print(GPA)
+print(dict(zip(students,grades)))
+print(dict(zip(students,GPA)))
